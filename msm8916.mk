@@ -263,6 +263,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
+# Disable qmi EAP-SIM security
+DISABLE_EAP_PROXY := true
+
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd \
