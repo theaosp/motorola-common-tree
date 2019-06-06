@@ -273,4 +273,6 @@
         phone object irrespective of this config -->
    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
 
+   <!-- Default state for LiveDisplay -->
+   <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
