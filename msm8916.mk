@@ -264,7 +264,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.1-service-qti
+    android.hardware.power@1.0-impl \
+    power.msm8916
 
 # USB
 PRODUCT_PACKAGES += \
