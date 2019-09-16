@@ -314,6 +314,10 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
+# Boot animation
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/prebuilt/bootanimation.zip:system/media/bootanimation.zip
+
 # Misc
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.debug.alloc=0 \
