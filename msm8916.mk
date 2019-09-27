@@ -185,10 +185,12 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common \
+    ims-ext-common_system \
     telephony-ext
 
-PRODUCT_BOOT_JARS += telephony-ext
+PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
+    telephony-ext
 
 # IRSC
 PRODUCT_COPY_FILES += \
