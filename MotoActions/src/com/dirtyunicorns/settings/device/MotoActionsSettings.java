@@ -22,7 +22,7 @@ import android.content.SharedPreferences;
 import android.os.UserHandle;
 import android.preference.PreferenceManager;
 
-import com.android.internal.hardware.AmbientDisplayConfiguration;
+import android.hardware.display.AmbientDisplayConfiguration;
 
 import com.dirtyunicorns.settings.device.actions.UpdatedStateNotifier;
 import com.dirtyunicorns.settings.device.actions.CameraActivationAction;
