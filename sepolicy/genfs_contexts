@@ -13,3 +13,5 @@ genfscon proc /sys/kernel/sched_window_stats_policy   u:object_r:proc_kernel_sch
 genfscon debugfs /rpm_stats                           u:object_r:debugfs_rpm:s0
 genfscon debugfs /rpm_master_stats                    u:object_r:debugfs_rpm:s0
 genfscon debugfs /system_stats                        u:object_r:debugfs_rpm:s0
+
+genfscon proc /cpu/alignment u:object_r:proc_cpu_alignment:s0
