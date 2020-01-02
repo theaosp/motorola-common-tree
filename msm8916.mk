@@ -20,8 +20,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_ENFORCE_RRO_TARGETS := framework-res
-
 # Boot Animation
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip
